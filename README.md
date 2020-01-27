@@ -15,7 +15,7 @@ The Python notebooks are in the directory `notebooks`. A short description of th
 
 5) `trees.ipynb`: This notebook implements a decision tree in a scorecard for the physical arrest target. The achieved accuracy is 91 %. Better than a scorecard based on logistic regression alone, but still well below a naive implementation by predicting no arrest which will achieve an accuracy of around 97 %.
 
-6) `umap_model.ipynb`: this notebook uses UMAP to draw a 2D version of the data. It clearly shows that the clusters for the binary target overlap. This explains why it is hard to build a good model. It also implements a threshold for the scorecard model. By using a higher threshold we are able to achieve slightly under 84 % better than the naive prediction baseline.
+6) `umap_model.ipynb`: this notebook uses UMAP to draw a 2D version of the data. It visualizes overlap of the zero and one target clusters. This explains why it is hard to build a good model. The notebook also implements a threshold for the scorecard model. By using a higher threshold we are able to achieve slightly under 84 % better than the naive prediction baseline.
 
 The data files are in the sub-directory `data`.
 
